@@ -2,21 +2,17 @@
 
 ## Descrição
 
-O **CodeOfLove 💻❤️** é uma página web interativa e divertida projetada para apresentar uma abordagem única sobre como pedir alguém em namoro, com um toque de humor e estilo de programador. A ideia é proporcionar uma experiência leve e descontraída para expressar sentimentos românticos usando conceitos de programação.
+Olá! Se você está aqui, provavelmente se deparou com o título intrigante deste post e está se perguntando sobre o que se trata essa loucura, certo? 😄 Não se preocupe, se estivesse no seu lugar, também faria a mesma pergunta. Mas, aqui vai uma pergunta para você: já pensou em sair da frente da tela do computador para pedir a pessoa amada em namoro? 😏
 
-## Como Funciona
+Bem, claro que para isso você não precisa sair da frente do seu PC. E é por isso que estamos aqui!
 
-Ao acessar a página [CodeOfLove 💻❤️](https://codeoflove.netlify.app), os visitantes serão recebidos com uma animação criativa e uma proposta especial para pedir a pessoa amada em namoro, apresentando um estilo de programador. A página utiliza uma animação para simular um botão que se move para cima e para baixo, adicionando um toque interativo à proposta.
+O software abaixo é simples, mas o que realmente importa é a intenção, hehe 😊. Você pode personalizá-lo ainda mais, deixando-o do jeito que preferir, então a imaginação é o limite!
 
-**Preview:**
-[CodeOfLove 💻❤️ Preview](https://codeoflove.netlify.app)
-![Resultado](https://codeoflove.netlify.app/assets/img/background-1.png)
+**Repositório para baixar os arquivos:** [Clique aqui ](https://github.com/devpit/CodeOfLove)
 
-## Tecnologias Utilizadas
+**Resultado:** [CodeOfLove 💻❤️](https://codeoflove.netlify.app)
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Resultado](https://codeoflove.netlify.app/assets/img/carousel/img-2.png)
 
 ## Personalização
 
@@ -47,9 +43,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 ```
 
-Sinta-se à vontade para adaptar o conteúdo, as animações e o estilo para atender às suas preferências.
+### Tem mais uma coisinha que não contei antes, com este código JS vai ser um pouco difícil ela recusar, pois ele não permite que o mouse fique em cima do botão nem que seja clicado, caso o usuário seja mobile hehe 🤠.
 
-Contribuições
-Contribuições são bem-vindas! Se você tem sugestões para melhorar o projeto, sinta-se à vontade para criar um fork do repositório e enviar um pull request.
+# alert('Abraço!');
 
-Espero que o CodeOfLove 💻❤️ traga uma abordagem divertida e única para expressar sentimentos românticos com um toque de programação. Divirta-se! 😊❤️
+**Repositório para baixar os arquivos:** [Clique aqui ](https://github.com/devpit/CodeOfLove)
+
+**Resultado:** [CodeOfLove 💻❤️](https://codeoflove.netlify.app)
