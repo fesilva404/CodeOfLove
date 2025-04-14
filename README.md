@@ -24,34 +24,26 @@ Se desejar personalizar a experiência, você pode modificar o código-fonte fac
 
 ```javascript
 // Trecho de código para animar o botão (JavaScript)
-var btn = document.querySelector(".no");
-var position = 0;
-var isAnimating = false;
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector(".no");
+  let position = 0;
+  let isAnimating = false;
 
-btn.addEventListener("click", function() {
+  function moveButton() {
     if (!isAnimating) {
-        isAnimating = true;
-        position = position === 0 ? 150 : 0;
-        btn.style.transform = `translate(0px, ${position}px)`;
-        btn.style.transition = "all 0.2s ease";
+      isAnimating = true;
+      position = position === 0 ? -120 : 0; 
+      btn.style.transform = `translateY(${position}px)`;
+      btn.style.transition = "all 0.2s ease";
 
-        setTimeout(function() {
-            isAnimating = false;
-        }, 200);
+      setTimeout(() => {
+        isAnimating = false;
+      }, 200);
     }
-});
+  }
 
-btn.addEventListener("mouseover", function() {
-    if (!isAnimating) {
-        isAnimating = true;
-        position = position === 0 ? 150 : 0;
-        btn.style.transform = `translate(0px, ${position}px)`;
-        btn.style.transition = "all 0.2s ease";
-
-        setTimeout(function() {
-            isAnimating = false;
-        }, 200);
-    }
+  btn.addEventListener("click", moveButton);
+  btn.addEventListener("mouseover", moveButton);
 });
 ```
 
